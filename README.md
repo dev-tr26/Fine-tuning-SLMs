@@ -10,8 +10,7 @@ This repo contains experiments with fine-tuning small language models (e.g., Tin
 ## 📦 Techniques Used
 - [x] LoRA (via 🤗 PEFT)
 - [ ] QLoRA
-- [ ] Prefix Tuning
-- [ ] AdapterFusion
+
 
 ## 📂 Structure
 See the folder structure above.
@@ -19,4 +18,4 @@ See the folder structure above.
 ## Models used:
 - llama2-7B
 - phi-3
-- 
+- FLAN-T5
