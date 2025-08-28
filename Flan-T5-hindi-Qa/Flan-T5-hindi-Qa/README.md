@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # T5 Fine-Tuning: Hindi Question Answering
 
 This project involves fine-tuning the [`t5-base`](https://huggingface.co/t5-base) model to check how it works on answer factual questions in Hindi. The goal is to train a model capable of generating accurate responses to domain-specific queries in english & tamil que-ans
@@ -83,26 +82,3 @@ The fine-tuned (experimental) model checkpoint is stored as a W&B artifact:
 
 > ⚠️ Note: This model was trained for experimentation and may not return valid outputs.
 
-=======
-# LLM Finetuning Experiments
-
-This repo contains experiments with fine-tuning small language models (e.g., TinyLlama, Mistral) using Parameter-Efficient Fine-Tuning (PEFT) techniques like LoRA, QLoRA, AdapterFusion, etc.
-
-## 🚀 Goals
-- Test PEFT methods on small models
-- Compare performance (loss, quality, speed, size)
-- Explore custom datasets
-
-## 📦 Techniques Used
-- [x] LoRA (via 🤗 PEFT)
-- [ ] QLoRA
-
-
-## 📂 Structure
-See the folder structure above.
-
-## Models used:
-- llama2-7B
-- phi-3
-- FLAN-T5
->>>>>>> b4b3134 (finetuned distgpt2)
