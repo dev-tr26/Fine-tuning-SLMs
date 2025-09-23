@@ -1,16 +1,3 @@
-Got it ✅
-Since you did **not** use Weights & Biases, I’ll prepare a **complete README.md** for your project that contains:
-
-* Full explanation of dataset, preprocessing, training
-* Metrics (loss curve, validation loss, accuracy/perplexity if computed)
-* Example outputs (your generated disease–symptom examples)
-* Plots included (loss curves, epoch duration curves)
-* A beginner-friendly walkthrough (“Dive into the world of Language Models...”)
-
-Here’s the final `README.md`:
-
-
-
 ```markdown
 # 🧠 Disease–Symptom Prediction using Fine-Tuned GPT-2
 
@@ -18,6 +5,8 @@ Dive into the world of **Language Models** as we train a small transformer model
 In this tutorial, we fine-tune **DistilGPT-2** (a lightweight version of GPT-2) on a medical dataset to generate **symptom descriptions** when given a disease name.  
 
 ---
+
+
 
 ## 📂 Project Overview
 
@@ -30,10 +19,14 @@ This project demonstrates how to:
 
 ---
 
+
+
 ## ⚙️ Dataset
-- Source: Hugging Face dataset : QuyenAnhDE/Diseases_Symptoms  (opensource) 
+- Source: Hugging Face dataset – QuyenAnhDE/Diseases_Symptoms (open-source).  
 - Format:  
 ```
+
+
 
 | Name           | Symptoms                                               |
 | -------------- | ------------------------------------------------------ |
@@ -104,33 +97,24 @@ Training and validation losses were logged per epoch.
 ## 🧪 Example Predictions
 
 ### Example 1
-**Input:**  
+**Input: heart attack **  
 ````
 
-heart attack
-
 ```
-**Generated Output:**  
+**Generated Output: heart attack | Chest pain, swelling, redness, numbness or pressure in the hand and fingers**  
 ```
-
-heart attack | Chest pain, swelling, redness, numbness or pressure in the hand and fingers
 
 ```
 
 ---
 
 ### Example 2
-**Input:**  
+**Input: lung-infection**  
 ```
 
-lung-infection
-
 ```
-**Generated Output:**  
+**Generated Output: lung-infection | Painless swelling, redness, numbness, limited range of motion**  
 ```
-
-lung-infection | Painless swelling, redness, numbness, limited range of motion
-
 ````
 
 ---
