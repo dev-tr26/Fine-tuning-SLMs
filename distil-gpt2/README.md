@@ -31,7 +31,7 @@ This project demonstrates how to:
 ---
 
 ## ⚙️ Dataset
-- Source: Hugging Face dataset – *Diseases & Symptoms* (open-source).  
+- Source: Hugging Face dataset : QuyenAnhDE/Diseases_Symptoms  (opensource) 
 - Format:  
 ```
 
