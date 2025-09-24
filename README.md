@@ -17,5 +17,5 @@ See the folder structure above.
 
 ## Models used:
 - llama2-7B
-- phi-3
+- distilGPT
 - FLAN-T5
