@@ -8,8 +8,8 @@ This repo contains experiments with fine-tuning small language models (e.g., Tin
 - Explore custom datasets
 
 ## 📦 Techniques Used
-- [x] LoRA (via 🤗 PEFT)
-- [ ] QLoRA
+- LoRA (via 🤗 PEFT)
+- QLoRA
 
 
 ## 📂 Structure
