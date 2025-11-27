@@ -1,14 +1,8 @@
 ```markdown
-# 🧠 Disease–Symptom Prediction using Fine-Tuned GPT-2
-
-Dive into the world of **Language Models** as we train a small transformer model to understand the relationship between **diseases** and **symptoms**!  
-In this tutorial, we fine-tune **DistilGPT-2** (a lightweight version of GPT-2) on a medical dataset to generate **symptom descriptions** when given a disease name.  
-
----
+#  Disease–Symptom Prediction using Fine-Tuned GPT-2
 
 
-
-## 📂 Project Overview
+##  Project Overview
 
 This project demonstrates how to:
 1. **Load and preprocess a dataset** of diseases and symptoms.  
@@ -21,7 +15,7 @@ This project demonstrates how to:
 
 
 
-## ⚙️ Dataset
+##  Dataset
 - Source: Hugging Face dataset – QuyenAnhDE/Diseases_Symptoms (open-source).  
 - Format:  
 ```
@@ -55,7 +49,7 @@ This project demonstrates how to:
 
 ---
 
-## 🔄 Training Loop
+##  Training Loop
 The training loop consisted of:  
 - Forward pass → compute loss  
 - Backward pass → gradient update  
@@ -65,7 +59,7 @@ Training and validation losses were logged per epoch.
 
 ---
 
-## 📊 Training Metrics
+##  Training Metrics
 
 | Epoch | Train Loss | Validation Loss | Time (s) |
 |-------|------------|-----------------|----------|
@@ -77,7 +71,7 @@ Training and validation losses were logged per epoch.
 | 6     | 0.356      | 0.561           | 7.8      |
 | 7     | 0.240      | 0.589           | 8.3      |
 
-### 📉 Loss Curves
+###  Loss Curves
 **Training vs Validation Loss**  
 ![Loss Curve](loss_curve.png)  
 
@@ -86,7 +80,7 @@ Training and validation losses were logged per epoch.
 
 ---
 
-## 🎯 Evaluation Metrics
+##  Evaluation Metrics
 - **Training Loss (final):** `0.240`  
 - **Validation Loss (final):** `0.589`  
 - **Perplexity (exp(Validation Loss)):** ~ **1.80**  
@@ -94,7 +88,7 @@ Training and validation losses were logged per epoch.
 
 ---
 
-## 🧪 Example Predictions
+##  Example Predictions
 
 ### Example 1
 **Input: heart attack **  
@@ -121,12 +115,12 @@ Training and validation losses were logged per epoch.
 
 ## 🚀 Usage Guide
 
-### 1️⃣ Install dependencies
+### 1️. Install dependencies
 ```bash
 pip install torch transformers datasets
 ````
 
-### 2️⃣ Load fine-tuned model
+### 2️. Load fine-tuned model
 
 ```python
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
@@ -154,12 +148,7 @@ print(tokenizer.decode(output[0], skip_special_tokens=True))
 
 ---
 
-## 🔮 Future Improvements
 
-* Experiment with **larger GPT-2 models** (`gpt2`, `gpt2-medium`)
-* Add **BLEU/ROUGE scores** for evaluating generated text
-* Expand dataset with more diseases and symptom variations
-* Deploy as a simple **API / Web App**
 
 
 
