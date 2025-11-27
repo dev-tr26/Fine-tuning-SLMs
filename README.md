@@ -2,17 +2,17 @@
 
 This repo contains experiments with fine-tuning small language models (e.g., TinyLlama, Mistral) using Parameter-Efficient Fine-Tuning (PEFT) techniques like LoRA, QLoRA, AdapterFusion, etc.
 
-## 🚀 Goals
+##  Goals
 - Test PEFT methods on small models
 - Compare performance (loss, quality, speed, size)
 - Explore custom datasets
 
-## 📦 Techniques Used
-- LoRA (via 🤗 PEFT)
+##  Techniques Used
+- LoRA (via  PEFT)
 - QLoRA
 
 
-## 📂 Structure
+##  Structure
 See the folder structure above.
 
 ## Models used:
@@ -22,7 +22,7 @@ See the folder structure above.
 
 
 ```markdown
-# 🧠 Disease–Symptom Prediction using Fine-Tuned GPT-2
+#  Disease–Symptom Prediction using Fine-Tuned GPT-2
 
 Dive into the world of **Language Models** as we train a small transformer model to understand the relationship between **diseases** and **symptoms**!  
 In this tutorial, we fine-tune **DistilGPT-2** (a lightweight version of GPT-2) on a medical dataset to generate **symptom descriptions** when given a disease name.  
@@ -31,7 +31,7 @@ In this tutorial, we fine-tune **DistilGPT-2** (a lightweight version of GPT-2) 
 
 
 
-## 📂 Project Overview
+##  Project Overview
 
 This project demonstrates how to:
 1. **Load and preprocess a dataset** of diseases and symptoms.  
@@ -44,7 +44,7 @@ This project demonstrates how to:
 
 
 
-## ⚙️ Dataset
+##  Dataset
 - Source: Hugging Face dataset – QuyenAnhDE/Diseases_Symptoms (open-source).  
 - Format:  
 ```
